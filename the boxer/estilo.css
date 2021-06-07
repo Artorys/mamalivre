@@ -1,0 +1,523 @@
+
+.linhas
+{
+    position: absolute;
+    left: 1000px;
+    top: -350px;
+    width: 100%;
+    font-size: 100px;
+    color: blue;
+    z-index: 10;
+
+
+}
+body
+{
+    background-color: rgb(255, 0, 191);
+    text-align: center;
+    overflow-x: hidden;
+
+}
+h1
+{
+   
+    position: relative;
+    top:-70px;
+    right: 30px;
+    white-space: normal;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size:80px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 10px;
+    border-radius: 80px;
+    background-color: rgb(117, 1, 108);
+    font-style: italic;
+    box-shadow: 10px 20px 10px ;
+    width: 20%;
+    border-color: rgb(0, 0, 0);
+    z-index: 3;
+}
+#menu-mobile2
+{
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+    font-size: 70px;
+    top: -300px;
+    left: 850px;
+    color: #940087;
+
+}
+#logo
+{
+    font-size: 110px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    width:100%;
+    position: relative;
+    height: 100px;
+    top: -260px;
+    left: 280px;
+    color: rgb(0, 0, 0);
+    z-index: 2;
+    white-space: nowrap;
+    text-shadow: 10px 10px 12px;
+    border: solid 10px;
+    border-radius: 20px;
+    background-color: rgb(150, 0, 137);
+    
+    
+    
+
+}
+#logo:hover
+{
+    background: rgba(255, 255, 255, 010)
+    
+}
+#linha8
+{
+    position: absolute;
+    height: 15px;
+    left: -10px;
+    top: -30px;
+    width: 100%;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.13);
+    border: solid 100px;
+    border-radius: 50px;
+    border-top-width:300px ;
+    border-top-style: solid;
+    border-color: rgb(0, 0, 0);
+    box-shadow:10px 20px 40px ;
+    z-index: 1;
+
+    
+}
+
+
+#linha6
+{
+    position: absolute;
+    height: 11000px;
+    width: 100vw;
+    top: -20px;
+    border: solid 20px;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    z-index: 0;
+}
+
+
+
+#linha0
+{
+    position:absolute;
+    top: 200px;
+    height: 10px;
+    background-color: rgb(0, 0, 0);
+    color: rgba(0, 255, 255, 0);
+    width: 92%;
+    border: solid 100px;
+    border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-radius: 10px;
+    border-color: rgb(255, 0, 221);
+    border-style: solid;
+    border-block-end:rgb(255, 16, 16);
+    z-index: 1;
+
+}
+
+
+
+#img
+{
+    position: absolute;
+    align-items: center;
+    left: 250px;
+    top: 295px;
+    z-index: 0;
+
+}
+#header
+{
+    position: absolute;
+    top: 330px;
+    display: flex;
+    justify-content: space-between;
+}
+#menu-mobile
+{
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    font-size: 100px;
+    z-index: 10;
+    top: -340px;
+    left: 1400px;
+    color: #4c004e;
+}
+#menu-mobile:hover
+{
+    color: rgba(255, 255, 255, 0.8);
+}
+#menu
+{
+    
+    flex-direction: column;
+    display: none;
+    text-align:right;
+    position: relative;
+    top: -20px;
+    left: -250px;
+    cursor: pointer;
+    list-style: none;
+    gap: 70px;
+    z-index: 3;
+    font-size: 30px;
+    background-color:#4b004e00;
+    color: #5c0057;
+    background-color:#4b004e00;
+    flex-direction: row;
+    justify-content: start;
+    position: absolute;
+    border-color: rgba(0, 0, 0, 0);
+    width: 10vw;
+    white-space: nowrap;
+    height: 10vh;
+    padding: 0;
+    margin: 0;
+ 
+    
+}
+#menu:hover
+{
+    color: rgb(158, 0, 150);
+}
+@keyframes ir
+{
+    0%
+    {
+        transform: translate(200vh,0);
+        opacity: 0%;
+    }
+    100%
+    {
+        transform: translate(63vh,0vh);
+        opacity: 100%;
+    }
+
+}
+@keyframes voltar
+{
+    0%
+    {
+        transform: translate(63vh,0vh);
+
+    }
+    100%
+    {
+        transform: translate(100vh,0);
+        opacity: 0%;
+        cursor: auto;
+        
+    }
+}
+@keyframes ir-imagem
+{
+    0%
+    {
+    transform: translate(0, -50vh);
+    opacity:0%;
+    }
+    100%
+    {
+        transform: translate(0,0vh);
+        opacity: 100%;
+    }
+}
+@keyframes ir-imagem2
+{
+    0%
+    {
+        transform: translate(0,-50vh);
+        opacity: 100%;
+    }
+    100%
+    {
+        transform: translate(0,0vh);
+    }
+}
+@keyframes ir-imagem3
+{
+    0%
+    {
+        transform: translate(0,-50vh);
+        opacity: 100%;
+    }
+    100%
+    {
+        transform: translate(0,0vh);
+    }
+}
+@keyframes ir-imagem4
+{
+    0%
+    {
+        transform: translate(0,-50vh);
+
+    }
+    100%
+    {
+        transform: translate(0,0vh);
+    }
+}
+@keyframes ir-imagem5
+{
+    0%
+    {
+        transform: translate(0,-50vh);
+    }
+    100%
+    {
+        transform: translate(0,0vh);
+    }
+}
+
+@media(max-width : 600px)
+{
+
+    h1
+    {
+        font-size: 30px;
+        position: relative;
+        top: -10px;
+    }
+     #imagem2
+     {
+         position: absolute;
+         left: 60px;
+         top: 3px;
+         width: 12%;
+     }
+     #linha8
+     {
+         position: absolute;
+         top: 10px;
+         width: 800px;
+     }
+     #linha6
+    {
+        position: absolute;
+        height: 11000px;
+        width: 100%;
+        border: solid 20px;
+        border-radius: 50px;
+        background-color: rgb(0, 0, 0);
+        z-index: 0;
+    }
+    #linha0
+    {
+        position: absolute;
+        width: 430px;
+    }   
+
+  
+
+    #menu-mobile
+    {
+        display: block;
+        position: absolute;
+        top: -450px;
+    }
+
+    #linha01
+    {
+        display: none;
+    }
+
+
+
+
+}
+@media(max-width: 1200px)
+{
+    #linha01
+    {
+       display: none;
+    }
+    #menu-mobile
+    {
+        display: none;
+        position: absolute;
+        font-size: 150px;
+        top: -420px;
+        left: 1100px;
+    }
+    #menu
+    {
+        position: relative;
+        left: -200px;
+    }
+
+
+
+    header
+    {
+       width: 1000px;
+    }
+    #logo
+    {
+        font-size: 90px;
+        position: absolute;
+        width: 440px;
+        left: 200px;
+    }
+    h1
+    {
+        font-size: 50px;
+        position: relative;
+        top: 15px;
+
+    }
+    #menu-mobile2
+    {
+        position: absolute;
+        left: 700px;
+    }
+}
+    @media(max-width: 1100px)
+    {
+        #menu-mobile
+        {
+            display: none;
+            position: absolute;
+            left: 1020px;
+ 
+        }
+        body
+        {
+            overflow-x: visible;
+        }
+        #menu
+        {
+            position: relative;
+            left: -100px;
+        }
+
+
+
+
+    @media(max-width: 1000px)
+    {
+
+        #menu-mobile
+        {
+            display: block; 
+            position: absolute;
+            left: 750px;
+            font-size: 150px;
+            top: -430px;
+            width: 0px;
+            height: 0px;
+        }
+        #menu-mobile2
+        {
+            display: none;
+        }
+        body
+        {
+            overflow-x: hidden;
+        }
+        #menu
+        {
+            padding-left: 300px;
+            gap: 50px;
+            
+        }
+        #img
+        {
+            position: relative;
+            left: -100px;
+        }
+
+       
+        
+    }
+    @media(max-width:900px)
+    {
+        #menu
+        {
+            position: relative;
+            left: -500px;
+        }
+
+
+    }
+    @media(max-width : 800px)
+    {
+        #linha8
+        {
+            position: absolute;
+            top: -20px;
+            width: 850px;
+        }
+        
+        #menu-mobile
+        {
+            display: block;
+        }
+        #linha6
+        {
+            position: absolute;
+            width: 1380px;
+            left: -80px;
+            z-index: 0;
+
+
+        }
+        #linha0
+        {
+            position: absolute;
+            width: 800px;
+        }
+
+        body
+        {
+            overflow-x: visible;
+        }
+        #menu
+        {
+            position: relative;
+            left: -390px;
+            white-space: nowrap;
+        }
+        #img
+        {
+            position: relative;
+            left: -15px;
+        }
+
+        
+    }
+    
+}
+@media(max-width:400px)
+{
+    #menu
+    {
+        position: relative;
+        left: -600px;
+    }
+
+}
+@media(max-width:500px)
+{
+    #menu{
+
+        position: absolute;
+        left:-700px
+    }
+}
