@@ -17,8 +17,3 @@ app.get("/theboxer", function(req, res)
     })
 })
 
-app.listen(5020, function()
-{
-    console.log("deu certo!")
-})
-
