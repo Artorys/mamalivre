@@ -32,7 +32,7 @@ function parte1()
         
         imagem.style.animation = "ir-imagem"
         imagem.style.animationDuration = "3s"
-        img.src = "001.jpg"
+        img.src = "img/001.jpg"
     }
 
 }
@@ -42,7 +42,7 @@ function parte2()
     div2.classList.toggle('active')
     if(div2.classList.contains('active'))
     {
-        img.src = "002.jpg"
+        img.src = "img/002.jpg"
         imagem.style.animation = "ir-imagem2"
         imagem.style.animationDuration = "3s"
     }
@@ -53,7 +53,7 @@ function parte3()
     div3.classList.toggle('active')
     if(div3.classList.contains('active'))
     {
-        img.src = "003.jpg"
+        img.src = "img/003.jpg"
         imagem.style.animation = "ir-imagem3"
         imagem.style.animationDuration = "3s"
     }
@@ -64,7 +64,7 @@ function parte4()
     div4.classList.toggle('active')
     if(div4.classList.contains('active'))
     {
-        img.src = "004.jpg"
+        img.src = "img/004.jpg"
         imagem.style.animation = "ir-imagem4"
         imagem.style.animationDuration = "3s"
     }
@@ -76,7 +76,7 @@ function parte5()
     div5.classList.toggle('active')
     if(div5.classList.contains('active'))
     {
-        img.src  = "005.jpg"
+        img.src  = "img/005.jpg"
         imagem.style.animation = "ir-imagem5"
         imagem.style.animationDuration = "3s"
     }
